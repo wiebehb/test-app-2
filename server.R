@@ -37,7 +37,7 @@ shinyServer(function(input, output, session) {
     if (input$submitbutton>0) {
       isolate("Calculation complete.")
     } else {
-      return("Server is ready for calculation.")
+      return("Server is ready for calculation now.")
     }
   })
 
